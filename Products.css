@@ -1,0 +1,54 @@
+
+.products {
+    padding: 20px;
+    background-color: #f9f9f9; 
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px; /* Espace entre les cartes de produits */
+  }
+  
+  .product-card {
+    background-color: white; /* Couleur de fond de la carte */
+    border: 1px solid #ddd; /* Bordure légère */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 15px;
+    text-align: center;
+    transition: box-shadow 0.3s; /* Effet d'ombre */
+  }
+  
+  .product-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Ombre au survol */
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center; /* Centre la pagination */
+    margin-top: 20px;
+  }
+  
+  .page-item {
+    margin: 0 5px; /* Espacement entre les éléments de pagination */
+  }
+  
+  .page-link {
+    padding: 10px 15px;
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Pas de soulignement pour les liens */
+    transition: background-color 0.3s;
+  }
+  
+  .page-link:hover {
+    background-color: #0056b3; /* Couleur au survol */
+  }
+  
+  .page-item.active .page-link {
+    background-color: #0056b3; /* Couleur pour la page active */
+  }
+  

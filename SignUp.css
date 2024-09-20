@@ -1,0 +1,51 @@
+/* src/pages/SignUp.css */
+
+form {
+    max-width: 400px; /* Largeur maximale du formulaire */
+    margin: 50px auto; /* Centre le formulaire verticalement et horizontalement */
+    padding: 20px; /* Padding interne */
+    background-color: #ffffff; /* Couleur de fond */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  }
+  
+  input {
+    width: 100%; /* Prend toute la largeur */
+    padding: 10px; /* Padding interne */
+    margin-bottom: 15px; /* Espace sous chaque champ */
+    border: 1px solid #ccc; /* Bordure légère */
+    border-radius: 4px; /* Coins arrondis */
+  }
+  
+  input:focus {
+    border-color: #007bff; /* Couleur de bordure au focus */
+    outline: none; /* Pas de contour par défaut */
+  }
+  
+  button {
+    width: 100%; /* Prend toute la largeur */
+    padding: 10px; /* Padding interne */
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de main sur le bouton */
+    transition: background-color 0.3s; /* Effet de transition */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Couleur au survol */
+  }
+  
+  a {
+    display: block; /* Affiche le lien en bloc */
+    margin-top: 15px; /* Espace au-dessus du lien */
+    text-align: center; /* Centre le texte */
+    color: #007bff; /* Couleur du lien */
+    text-decoration: none; /* Pas de soulignement */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Soulignement au survol */
+  }
+  
